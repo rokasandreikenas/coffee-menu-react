@@ -7,7 +7,7 @@
   "homepage": "https://rokasandreikenas.github.io/coffee-menu-react",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
     "server": "json-server --watch src/api/db.json --port 3001",
