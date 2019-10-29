@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Menu from '../Menu/Menu.jsx';
 import CoffeeDetails from '../CoffeeDetails/CoffeeDetails.js';
 import AddCoffee from '../AddCoffee/AddCoffee';
 
 const Main = () => {
     return (
-        <Router>
+        <HashRouter basename='/'>
             <div>
                 <Switch>
                     <Route exact path='/' component={Menu} />
@@ -17,7 +17,8 @@ const Main = () => {
                     <Route exact path='/:id' component={CoffeeDetails} />
                 </Switch>
             </div>
-        </Router>
+        </HashRouter>
+
 
     )
 }
