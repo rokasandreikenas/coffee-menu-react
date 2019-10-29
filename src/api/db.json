@@ -1,25 +1,39 @@
 {
   "coffee": [
     {
-      "id": 2,
-      "photo_url": "https://www.sheknows.com/wp-content/uploads/2018/08/flat-white-coffee_tbnwfc.jpeg",
-      "name": "White coffee",
-      "price": "8.99",
-      "description": "White coffee beans from America"
-    },
-    {
-      "id": 3,
-      "photo_url": "https://www.caffesociety.co.uk/assets/recipe-images/latte-small.jpg",
-      "name": "Latte",
-      "price": "8.99",
-      "description": "Latte coffee"
-    },
-    {
-      "name": "Black coffe",
-      "price": "8",
-      "description": "black coffee",
+      "name": "Caffè Americano",
+      "price": "4.99",
+      "description": "Caffè Americano (also known as Americano or American;) is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee",
       "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+      "id": 1
+    },
+    {
+      "name": "White coffee",
+      "price": "4.99",
+      "description": "White coffee",
+      "photo_url": "https://www.sheknows.com/wp-content/uploads/2018/08/flat-white-coffee_tbnwfc.jpeg",
+      "id": 2
+    },
+    {
+      "name": "Latte",
+      "price": "5.99",
+      "description": "A latte is a coffee drink made with espresso and steamed milk.",
+      "photo_url": "https://www.caffesociety.co.uk/assets/recipe-images/latte-small.jpg",
+      "id": 3
+    },
+    {
+      "name": "Cappuccino ",
+      "price": "5.99",
+      "description": "Cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam (microfoam).",
+      "photo_url": "https://wallingfordcoffee.com/wp-content/uploads/2014/11/product-capp.jpg",
       "id": 4
+    },
+    {
+      "name": "Espresso",
+      "price": "3.99",
+      "description": "Espresso is coffee of Italian origin, brewed by forcing a small amount of nearly boiling water under pressure (expressing) through finely ground coffee beans",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg",
+      "id": 5
     }
   ]
 }
