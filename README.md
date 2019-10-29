@@ -27,13 +27,9 @@ npm install
 ## Development
 
 ``` text
-# start the json-server
-npm run mock:api
-# wait for the first compilation is successful
-
-# in another terminal/console
-# start 
+# start the application
 npm start
+# it will run server and client side on one command
 
 # open this url in your browser
 http://localhost:8080/
