@@ -28,7 +28,7 @@ npm install
 
 ``` text
 # start the application
-npm start
+npm run dev
 # it will run server and client side on one command
 
 # open this url in your browser
