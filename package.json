@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
-    "mock:api": "json-server --watch src/api/db.json --port 3001",
+    "server": "json-server --watch src/api/db.json --port 3001",
+    "dev": "concurrently \"npm run server\" \"npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
