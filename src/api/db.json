@@ -1,0 +1,25 @@
+{
+  "coffee": [
+    {
+      "id": 2,
+      "photo_url": "https://www.sheknows.com/wp-content/uploads/2018/08/flat-white-coffee_tbnwfc.jpeg",
+      "name": "White coffee",
+      "price": "8.99",
+      "description": "White coffee beans from America"
+    },
+    {
+      "id": 3,
+      "photo_url": "https://www.caffesociety.co.uk/assets/recipe-images/latte-small.jpg",
+      "name": "Latte",
+      "price": "8.99",
+      "description": "Latte coffee"
+    },
+    {
+      "name": "Black coffe",
+      "price": "8",
+      "description": "black coffee",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG",
+      "id": 4
+    }
+  ]
+}
